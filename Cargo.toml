@@ -1,0 +1,14 @@
+[package]
+name = "zed-dl"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+octocrab = "0.44.1"
+reqwest = "0.12.15"
+tokio = { version = "1.45.0", features = ["full"] }
+zip = "2.6.1"
+termimad = "0.31.3"
+comrak = "0.39.0"
+crossterm = "0.29.0"
+strum = { version = "0.27.1", features = ["derive"] }
