@@ -6,7 +6,7 @@ on:
       repository:
         description: Repository to clone and build
         type: string
-        default: zed-industries/zed
+        default: inferrna/zed
       ref:
         description: Branch/tag/ref to build
         type: string
